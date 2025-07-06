@@ -1,0 +1,1 @@
+Arquivo usados para configurar o openldao nos servidores
