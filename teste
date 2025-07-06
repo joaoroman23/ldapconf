@@ -15,3 +15,5 @@ mv $REPO-main/* ./
 
 # Clean up
 rm -rf $REPO-main repo.zip
+
+.
