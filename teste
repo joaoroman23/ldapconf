@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Replace with the actual repository owner and name
+OWNER="username"
+REPO="repository"
+
+# Download the ZIP archive of the repository's default branch
+wget "https://github.com/$OWNER/$REPO/archive/refs/heads/main.zip" -O repo.zip
+
+# Extract the ZIP file
+unzip repo.zip
+
+# Move the contents to the current directory (optional)
+mv $REPO-main/* ./
+
+# Clean up
+rm -rf $REPO-main repo.zip
