@@ -15,7 +15,7 @@ FILES=(
     "nsswitch.conf:/etc/nsswitch.conf"
     "sshd_config:/etc/ssh/sshd_config"
     "sssd.conf:/etc/sssd/sssd.conf"
-        "common-auth:/etc/pam.d/commom-auth"
+    "common-auth:/etc/pam.d/common-auth"
 )
 BASE_URL="https://raw.githubusercontent.com/joaoroman23/ldapconf/refs/heads/main"
 
